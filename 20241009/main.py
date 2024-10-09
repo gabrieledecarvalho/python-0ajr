@@ -1,7 +1,7 @@
 #coding: utf-8
 import math
 
-def equacao2grau(a,b,c):
+def equacao2grau(a,b,c): #melhor método
     delta = math.pow(b,2)-4*a*c
     #criando variáveis vazias antes de usá-las, é uma prática boa para não gerar algum erro e causar trabalho 
     x1=None
@@ -33,10 +33,10 @@ def equacao2grauCapivara(a,b,c):
 
 if __name__=="__main__":
     saida = eq2grau(1,4,4)
-    print(saida)
-    print("quantidade de termos: ",len(saída))
-    print("termo 1 ", saida[0])
-    print("termo 2 ", saida[1])
-    
+
+    n = len(saida) #retorna o número de termos da variável saída
+    for i in range(n):
+         print(f"valor {i} de saída: ", saida[1])
+
     #x1, x2, delta = eq2grau(1,4,3)
     #print(f"as raúzes são {x1} e {x2}, delta = {delta}")
