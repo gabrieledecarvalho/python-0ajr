@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # cálculo simples
 def calculaValorTotalPeca():
-    codigoDaPeca, numeroDePecas, valorUnitarioDaPeca = input().split
+    codigoDaPeca, numeroDePecas, valorUnitarioDaPeca = input().split()
     codigoDaPeca = int(codigoDaPeca)
     numeroDePecas = int(numeroDePecas)
     valorUnitarioDaPeca = float(valorUnitarioDaPeca)
