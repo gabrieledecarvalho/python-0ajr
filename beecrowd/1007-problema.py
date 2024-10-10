@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# calcula diferença
 A = int(input())
 B = int(input())
 C = int(input())
